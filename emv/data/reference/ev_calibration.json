@@ -1,0 +1,377 @@
+{
+ "theta": {
+  "A_ev": 5.9209,
+  "B_ev": 15.4181,
+  "A_c": 2.3529,
+  "B_c": 2.8568
+ },
+ "loss": 0.9418,
+ "parts": {
+  "fingerprint": 0.942,
+  "safety": 0.0,
+  "collisions": 0.0,
+  "comfort": 0.0
+ },
+ "base_label": "TUNED_NORMAL",
+ "regime": "freeflow",
+ "seeds": [
+  11,
+  12,
+  13
+ ],
+ "val_seeds": [
+  21,
+  22,
+  23
+ ],
+ "baselines": {
+  "inherited": {
+   "theta": {
+    "A_ev": 4.5,
+    "B_ev": 18.0,
+    "A_c": 4.2,
+    "B_c": 1.6
+   },
+   "loss": 1.131,
+   "parts": {
+    "fingerprint": 1.131,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "fingerprint": {
+    "n_frames": 226,
+    "n_obs": 219,
+    "n_tracks": 56,
+    "n_tracks_assessable": 50,
+    "veh_per_frame": 0.9690265486725663,
+    "obs_yielded": 0.2374429223744292,
+    "obs_failed": 0.2694063926940639,
+    "obs_braked": 0.0182648401826484,
+    "obs_normal": 0.4748858447488584,
+    "trk_yielded": 0.42,
+    "trk_failed": 0.58,
+    "trk_braked": 0.08,
+    "onset_dist_med": 40.995000000000005,
+    "onset_dist_p90": 47.742,
+    "lat_speed_med": 0.575,
+    "lat_speed_p90": 0.869,
+    "accel_p05": -1.525
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9926914284605073,
+    "min_ttc": 4.053430422444241,
+    "p95_decel": 0.31481600431833784,
+    "p95_alat": 0.2574307810402723,
+    "clearance_mean": 136.39719969841659,
+    "react_dist_mean": 108.46835236814157,
+    "disruption": 0.0,
+    "collisions": 0
+   }
+  },
+  "defaults": {
+   "theta": {
+    "A_ev": 4.5,
+    "B_ev": 18.0,
+    "A_c": 4.2,
+    "B_c": 1.6
+   },
+   "loss": 1.131,
+   "parts": {
+    "fingerprint": 1.131,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "fingerprint": {
+    "n_frames": 226,
+    "n_obs": 219,
+    "n_tracks": 56,
+    "n_tracks_assessable": 50,
+    "veh_per_frame": 0.9690265486725663,
+    "obs_yielded": 0.2374429223744292,
+    "obs_failed": 0.2694063926940639,
+    "obs_braked": 0.0182648401826484,
+    "obs_normal": 0.4748858447488584,
+    "trk_yielded": 0.42,
+    "trk_failed": 0.58,
+    "trk_braked": 0.08,
+    "onset_dist_med": 40.995000000000005,
+    "onset_dist_p90": 47.742,
+    "lat_speed_med": 0.575,
+    "lat_speed_p90": 0.869,
+    "accel_p05": -1.525
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9926914284605073,
+    "min_ttc": 4.053430422444241,
+    "p95_decel": 0.31481600431833784,
+    "p95_alat": 0.2574307810402723,
+    "clearance_mean": 136.39719969841659,
+    "react_dist_mean": 108.46835236814157,
+    "disruption": 0.0,
+    "collisions": 0
+   }
+  },
+  "tuned_ev": {
+   "theta": {
+    "A_ev": 2.152,
+    "B_ev": 21.406,
+    "A_c": 3.758,
+    "B_c": 0.748
+   },
+   "loss": 1.2692,
+   "parts": {
+    "fingerprint": 1.2692,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "fingerprint": {
+    "n_frames": 226,
+    "n_obs": 218,
+    "n_tracks": 56,
+    "n_tracks_assessable": 51,
+    "veh_per_frame": 0.9646017699115044,
+    "obs_yielded": 0.1651376146788991,
+    "obs_failed": 0.3119266055045872,
+    "obs_braked": 0.013761467889908258,
+    "obs_normal": 0.5091743119266054,
+    "trk_yielded": 0.3137254901960784,
+    "trk_failed": 0.6862745098039216,
+    "trk_braked": 0.058823529411764705,
+    "onset_dist_med": 44.255,
+    "onset_dist_p90": 47.985,
+    "lat_speed_med": 0.605,
+    "lat_speed_p90": 0.89,
+    "accel_p05": -1.7605
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9923478856570643,
+    "min_ttc": 3.6307195556737386,
+    "p95_decel": 0.311716531369623,
+    "p95_alat": 0.2220711095150079,
+    "clearance_mean": 134.97477542697118,
+    "react_dist_mean": 102.17567734292514,
+    "disruption": 0.0,
+    "collisions": 0
+   }
+  }
+ },
+ "fingerprint": {
+  "n_frames": 228,
+  "n_obs": 236,
+  "n_tracks": 55,
+  "n_tracks_assessable": 46,
+  "veh_per_frame": 1.0350877192982457,
+  "obs_yielded": 0.2542372881355932,
+  "obs_failed": 0.2033898305084746,
+  "obs_braked": 0.0847457627118644,
+  "obs_normal": 0.4576271186440678,
+  "trk_yielded": 0.43478260869565216,
+  "trk_failed": 0.5,
+  "trk_braked": 0.2608695652173913,
+  "onset_dist_med": 38.49,
+  "onset_dist_p90": 47.22,
+  "lat_speed_med": 0.61,
+  "lat_speed_p90": 0.921,
+  "accel_p05": -2.7624999999999997
+ },
+ "measures": {
+  "ev_speed_ratio": 0.975692366872145,
+  "min_ttc": 2.985603184883957,
+  "p95_decel": 0.31240163586130726,
+  "p95_alat": 0.25484237510643915,
+  "clearance_mean": 118.10593896396672,
+  "react_dist_mean": 108.63685886512134,
+  "disruption": 0.0,
+  "collisions": 0
+ },
+ "validation": {
+  "loss": 1.0676,
+  "parts": {
+   "fingerprint": 1.0676,
+   "safety": 0.0,
+   "collisions": 0.0,
+   "comfort": 0.0
+  },
+  "fingerprint": {
+   "n_frames": 230,
+   "n_obs": 275,
+   "n_tracks": 64,
+   "n_tracks_assessable": 53,
+   "veh_per_frame": 1.1956521739130435,
+   "obs_yielded": 0.23636363636363636,
+   "obs_failed": 0.26181818181818184,
+   "obs_braked": 0.05090909090909091,
+   "obs_normal": 0.4509090909090909,
+   "trk_yielded": 0.3584905660377358,
+   "trk_failed": 0.6226415094339622,
+   "trk_braked": 0.1320754716981132,
+   "onset_dist_med": 40.99,
+   "onset_dist_p90": 46.674,
+   "lat_speed_med": 0.65,
+   "lat_speed_p90": 0.956,
+   "accel_p05": -2.4
+  },
+  "measures": {
+   "ev_speed_ratio": 0.9731665215597752,
+   "min_ttc": 3.0463693318102028,
+   "p95_decel": 0.34621563924966603,
+   "p95_alat": 0.2767103331562412,
+   "clearance_mean": 122.84126900969211,
+   "react_dist_mean": 104.93152498933877,
+   "disruption": 0.0,
+   "collisions": 0
+  }
+ },
+ "gt": {
+  "videos": [
+   "20240720_einsatz_1080p",
+   "video1",
+   "video2",
+   "video3",
+   "video4"
+  ],
+  "n_frames": 32997,
+  "rules": {
+   "n_frames": 32997,
+   "n_obs": 144896,
+   "n_tracks": 9046,
+   "n_tracks_assessable": 8032,
+   "veh_per_frame": 4.391187077613116,
+   "obs_yielded": 0.2597104129858657,
+   "obs_failed": 0.19919114399293286,
+   "obs_braked": 0.20331824204946997,
+   "obs_normal": 0.33778020097173145,
+   "trk_yielded": 0.4318974103585657,
+   "trk_failed": 0.24750996015936255,
+   "trk_braked": 0.7963147410358565,
+   "onset_dist_med": 37.965,
+   "onset_dist_p90": 49.203,
+   "lat_speed_med": 1.1,
+   "lat_speed_p90": 2.4,
+   "accel_p05": -16.0
+  },
+  "reviewed": {
+   "n_frames": 32997,
+   "n_obs": 144896,
+   "n_tracks": 9046,
+   "n_tracks_assessable": 8032,
+   "veh_per_frame": 4.391187077613116,
+   "obs_yielded": 0.1609154151943463,
+   "obs_failed": 0.13096289752650175,
+   "obs_braked": 0.20251766784452296,
+   "obs_normal": 0.505604019434629,
+   "trk_yielded": 0.3570717131474104,
+   "trk_failed": 0.0987300796812749,
+   "trk_braked": 0.7898406374501992,
+   "onset_dist_med": 34.42,
+   "onset_dist_p90": 49.03,
+   "lat_speed_med": 0.5,
+   "lat_speed_p90": 1.7,
+   "accel_p05": -16.0
+  },
+  "acceptance_bar": 0.7252,
+  "per_video": {
+   "20240720_einsatz_1080p": {
+    "n_frames": 930,
+    "n_obs": 2528,
+    "distance_to_pooled": 1.3732
+   },
+   "video1": {
+    "n_frames": 7320,
+    "n_obs": 18323,
+    "distance_to_pooled": 0.5605
+   },
+   "video2": {
+    "n_frames": 5397,
+    "n_obs": 26470,
+    "distance_to_pooled": 0.7037
+   },
+   "video3": {
+    "n_frames": 13637,
+    "n_obs": 72536,
+    "distance_to_pooled": 0.4698
+   },
+   "video4": {
+    "n_frames": 5713,
+    "n_obs": 25039,
+    "distance_to_pooled": 0.5187
+   }
+  }
+ },
+ "n_evals": 87,
+ "nm_trace": [
+  1.0352,
+  1.0352,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9709,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9442,
+  0.9438,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.942,
+  0.9418,
+  0.9418,
+  0.9418,
+  0.9418,
+  0.9418
+ ],
+ "frozen": {
+  "a_pin": 1.2012,
+  "zeta_lat": 0.902,
+  "v_lat_max": 1.0501,
+  "a_lat_max": 0.4158,
+  "sigma_off": 0.3796,
+  "het_lat": 0.3371,
+  "k_rho": 0.9142,
+  "A_pass": 5.511,
+  "A_keep_right": 9.2441,
+  "T_frust": 3.7412,
+  "s_veto": 27.7238,
+  "tau": 0.6006,
+  "T_hw_lo": 1.3479,
+  "T_hw_hi": 1.7136,
+  "s0": 2.6101,
+  "A_v": 5.9237,
+  "Bx_v": 6.7825,
+  "a_max": 1.1603,
+  "b_comf": 4.1777,
+  "gamma_c": 0.55,
+  "T_react": 9.0,
+  "R_front": 140.0
+ }
+}

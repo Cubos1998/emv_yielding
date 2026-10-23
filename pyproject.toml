@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emv-yielding"
+version = "1.0.0.post1"
+description = "Social-force simulation of traffic yielding to emergency vehicles"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "matplotlib>=3.8", "pillow>=10.0"]
+
+[project.optional-dependencies]
+sumo = ["traci>=1.26", "sumolib>=1.26"]
+
+[tool.setuptools.packages.find]
+include = ["emv", "emv.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+emv = ["data/reference/*.json"]

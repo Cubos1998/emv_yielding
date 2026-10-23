@@ -1,0 +1,29 @@
+\multicolumn{6}{l}{\emph{Car following (stage 1)}}\\
+$\tau$ & speed relaxation time & s & 0.55 & \textbf{0.60} & 0.60\\
+$T_{\rm lo}$ & headway draw, lower bound & s & 1.10 & \textbf{1.35} & 1.35\\
+$T_{\rm hi}$ & headway draw, upper bound & s & 1.80 & \textbf{1.71} & 1.71\\
+$s_0$ & standstill gap & m & 2.00 & \textbf{2.61} & 2.61\\
+$A_v$ & car--car repulsion strength & m/s$^2$ & 2.50 & \textbf{5.92} & 5.92\\
+$B_x$ & car--car longitudinal range & m & 5.00 & \textbf{6.78} & 6.78\\
+$a_{\max}$ & comfortable acceleration & m/s$^2$ & 2.60 & \textbf{1.16} & 1.16\\
+$b$ & comfortable deceleration & m/s$^2$ & 3.00 & \textbf{4.18} & 4.18\\
+\multicolumn{6}{l}{\emph{Lateral block (stage 1)}}\\
+$a_{\rm pin}$ & lane-keeping barrier & m/s$^2$ & 1.40 & \textbf{1.20} & 1.20\\
+$\zeta$ & lateral damping ratio & -- & 1.00 & \textbf{0.90} & 0.90\\
+$v_y^{\max}$ & lateral speed limit & m/s & 2.20 & \textbf{1.05} & 1.05\\
+$a_y^{\max}$ & lateral acceleration limit & m/s$^2$ & 3.00 & \textbf{0.42} & 0.42\\
+$\sigma_{\rm off}$ & preferred in-lane offset s.d. & m & 0 & \textbf{0.38} & 0.38\\
+$h_{\rm lat}$ & driver-to-driver dispersion & -- & 0 & \textbf{0.34} & 0.34\\
+$k_\rho$ & density exponent of barrier & -- & 0 & \textbf{0.91} & 0.91\\
+\multicolumn{6}{l}{\emph{Lane changing (stage 1)}}\\
+$A_{\rm pass}$ & overtaking incentive & m/s$^2$ & 0 & \textbf{5.51} & 5.51\\
+$A_{\rm keep}$ & keep-right pressure & m/s$^2$ & 0 & \textbf{9.24} & 9.24\\
+$T_{\rm frust}$ & frustration headway & s & 2.50 & \textbf{3.74} & 3.74\\
+$s_{\rm veto}$ & gap-check window & m & 20.0 & \textbf{27.7} & 27.7\\
+\multicolumn{6}{l}{\emph{EMV response (stage 2)}}\\
+$A_{\rm emv}$ & EMV point-field strength & m/s$^2$ & 4.50 & 4.50 & \textbf{5.92}\\
+$B_{\rm emv}$ & EMV point-field range & m & 18.0 & 18.0 & \textbf{15.4}\\
+$A_c$ & corridor-field strength & m/s$^2$ & 4.20 & 4.20 & \textbf{2.35}\\
+$B_c$ & corridor-field decay & m & 1.60 & 1.60 & \textbf{2.86}\\
+$T_{\rm react}$ & anticipation time & s & 9.00 & 9.00 & 9.00\\
+$\gamma_c$ & merge-brake gain & s$^{-1}$ & 0.55 & 0.55 & 0.55\\

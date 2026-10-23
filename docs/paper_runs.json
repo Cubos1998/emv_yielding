@@ -1,0 +1,182 @@
+[
+  {
+    "ts": "2026-09-15T05:05:15",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 150.7,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:09:44",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 149.4,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:17:18",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 155.5,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:22:57",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 151.1,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:26:19",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 150.8,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:37:25",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 150.6,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:51:36",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 149.9,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T05:59:06",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 151.6,
+    "note": "new_paper: pipeline paper figures + multi-seed yield/no-yield runs (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T07:30:18",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 239.3,
+    "note": "new_paper (+v3): pipeline figures, multi-seed yield/no-yield runs, 40-seed bow wave (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  },
+  {
+    "ts": "2026-09-15T09:18:49",
+    "kind": "paper_figs",
+    "status": "ok",
+    "wall_s": 247.9,
+    "note": "new_paper (+v3): pipeline figures, force-field maps, multi-seed yield/no-yield runs, 40-seed bow wave (bluelight_params)",
+    "params": {
+      "n_seeds": 10,
+      "quick": false
+    },
+    "metrics": {
+      "ot_speed_yield": 0.89371,
+      "ot_speed_noyield": 0.82375,
+      "jam_speed_yield": 0.70381,
+      "jam_coll_yield": 183,
+      "onset_median": 84.814
+    }
+  }
+]

@@ -1,0 +1,407 @@
+{
+ "baseline": {
+  "theta": {
+   "A_ev": 5.9209,
+   "B_ev": 15.4181,
+   "A_c": 2.3529,
+   "B_c": 2.8568
+  },
+  "loss": 0.942,
+  "parts": {
+   "fingerprint": 0.942,
+   "safety": 0.0,
+   "collisions": 0.0,
+   "comfort": 0.0
+  },
+  "fingerprint": {
+   "n_frames": 228,
+   "n_obs": 236,
+   "n_tracks": 55,
+   "n_tracks_assessable": 46,
+   "veh_per_frame": 1.0350877192982457,
+   "obs_yielded": 0.2542372881355932,
+   "obs_failed": 0.2033898305084746,
+   "obs_braked": 0.0847457627118644,
+   "obs_normal": 0.4576271186440678,
+   "trk_yielded": 0.43478260869565216,
+   "trk_failed": 0.5,
+   "trk_braked": 0.2608695652173913,
+   "onset_dist_med": 38.49,
+   "onset_dist_p90": 47.22,
+   "lat_speed_med": 0.61,
+   "lat_speed_p90": 0.921,
+   "accel_p05": -2.7624999999999997
+  },
+  "measures": {
+   "ev_speed_ratio": 0.975692366872145,
+   "min_ttc": 2.985603184883957,
+   "p95_decel": 0.31240163586130726,
+   "p95_alat": 0.25484237510643915,
+   "clearance_mean": 118.10593896396672,
+   "react_dist_mean": 108.63685886512134,
+   "disruption": 0.0,
+   "collisions": 0
+  }
+ },
+ "base_label": "TUNED_BLUELIGHT",
+ "regime": "freeflow",
+ "seeds": [
+  11,
+  12,
+  13
+ ],
+ "ablation": {
+  "no_ev_field": {
+   "term": "ev",
+   "why": "point repulsion from the emergency vehicle itself",
+   "overrides": {
+    "A_ev": 0.0
+   },
+   "loss": 1.0299,
+   "d_loss": 0.0879,
+   "parts": {
+    "fingerprint": 1.0299,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9737997213475683,
+    "min_ttc": 2.7964907555909164,
+    "p95_decel": 0.3005653122908667,
+    "p95_alat": 0.21665272440473582,
+    "clearance_mean": 117.35791282936862,
+    "react_dist_mean": 110.06056461515486,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 229,
+    "n_obs": 235,
+    "n_tracks": 55,
+    "n_tracks_assessable": 46,
+    "veh_per_frame": 1.0262008733624455,
+    "obs_yielded": 0.23404255319148937,
+    "obs_failed": 0.2425531914893617,
+    "obs_braked": 0.07234042553191489,
+    "obs_normal": 0.451063829787234,
+    "trk_yielded": 0.41304347826086957,
+    "trk_failed": 0.5869565217391305,
+    "trk_braked": 0.2826086956521739,
+    "onset_dist_med": 41.535,
+    "onset_dist_p90": 48.721,
+    "lat_speed_med": 0.61,
+    "lat_speed_p90": 0.926,
+    "accel_p05": -2.84
+   }
+  },
+  "no_corridor_lat": {
+   "term": "corr",
+   "why": "the lateral corridor push - the term that forms the rescue lane",
+   "overrides": {
+    "A_c": 0.0
+   },
+   "loss": 1.6032,
+   "d_loss": 0.6612,
+   "parts": {
+    "fingerprint": 1.6032,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.8862793058430176,
+    "min_ttc": 2.5977865439467327,
+    "p95_decel": 0.27563521054619716,
+    "p95_alat": 0.18804182216882412,
+    "clearance_mean": 68.08611099535199,
+    "react_dist_mean": 83.90284198379574,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 252,
+    "n_obs": 343,
+    "n_tracks": 48,
+    "n_tracks_assessable": 42,
+    "veh_per_frame": 1.3611111111111112,
+    "obs_yielded": 0.03498542274052478,
+    "obs_failed": 0.42857142857142855,
+    "obs_braked": 0.03206997084548105,
+    "obs_normal": 0.5043731778425656,
+    "trk_yielded": 0.16666666666666666,
+    "trk_failed": 0.7619047619047619,
+    "trk_braked": 0.14285714285714285,
+    "onset_dist_med": 14.02,
+    "onset_dist_p90": 25.120000000000005,
+    "lat_speed_med": 0.53,
+    "lat_speed_p90": 1.0350000000000001,
+    "accel_p05": -2.116
+   }
+  },
+  "no_corridor_lon": {
+   "term": "corr",
+   "why": "the 'slow down while pulling over' component",
+   "overrides": {
+    "gamma_c": 0.0
+   },
+   "loss": 1.0146,
+   "d_loss": 0.0726,
+   "parts": {
+    "fingerprint": 1.0146,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9819306797009689,
+    "min_ttc": 3.7236262671266567,
+    "p95_decel": 0.3117480430096297,
+    "p95_alat": 0.25505948875399564,
+    "clearance_mean": 123.30213172557063,
+    "react_dist_mean": 108.18673705360051,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 227,
+    "n_obs": 228,
+    "n_tracks": 55,
+    "n_tracks_assessable": 47,
+    "veh_per_frame": 1.0044052863436124,
+    "obs_yielded": 0.25,
+    "obs_failed": 0.2324561403508772,
+    "obs_braked": 0.07017543859649122,
+    "obs_normal": 0.4473684210526316,
+    "trk_yielded": 0.425531914893617,
+    "trk_failed": 0.574468085106383,
+    "trk_braked": 0.2553191489361702,
+    "onset_dist_med": 39.105000000000004,
+    "onset_dist_p90": 46.690000000000005,
+    "lat_speed_med": 0.55,
+    "lat_speed_p90": 0.914,
+    "accel_p05": -2.6814999999999998
+   }
+  },
+  "no_urgency_relief": {
+   "term": "lane",
+   "why": "urgency relaxing lane discipline, i.e. raising the depinning threshold a yielding driver must cross",
+   "overrides": {
+    "urgency_pin_relief": 0.0
+   },
+   "loss": 1.202,
+   "d_loss": 0.26,
+   "parts": {
+    "fingerprint": 1.202,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9560586803078648,
+    "min_ttc": 3.5496780691076673,
+    "p95_decel": 0.30112325168034787,
+    "p95_alat": 0.23197088993243198,
+    "clearance_mean": 100.77579115783429,
+    "react_dist_mean": 105.46899391406384,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 233,
+    "n_obs": 270,
+    "n_tracks": 52,
+    "n_tracks_assessable": 48,
+    "veh_per_frame": 1.1587982832618027,
+    "obs_yielded": 0.17407407407407408,
+    "obs_failed": 0.32592592592592595,
+    "obs_braked": 0.03333333333333333,
+    "obs_normal": 0.4666666666666667,
+    "trk_yielded": 0.4166666666666667,
+    "trk_failed": 0.5833333333333334,
+    "trk_braked": 0.1875,
+    "onset_dist_med": 27.310000000000002,
+    "onset_dist_p90": 45.571000000000005,
+    "lat_speed_med": 0.62,
+    "lat_speed_p90": 0.996,
+    "accel_p05": -2.2194999999999996
+   }
+  },
+  "no_aware_boost": {
+   "term": "idm",
+   "why": "yielding drivers accepting stronger acceleration",
+   "overrides": {
+    "aware_amax_boost": 1.0
+   },
+   "loss": 0.9504,
+   "d_loss": 0.0084,
+   "parts": {
+    "fingerprint": 0.9504,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.9752085267848697,
+    "min_ttc": 2.7169621127767116,
+    "p95_decel": 0.31291143795914694,
+    "p95_alat": 0.2546989144363312,
+    "clearance_mean": 118.27006166624278,
+    "react_dist_mean": 108.72726439329945,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 228,
+    "n_obs": 234,
+    "n_tracks": 54,
+    "n_tracks_assessable": 46,
+    "veh_per_frame": 1.0263157894736843,
+    "obs_yielded": 0.2606837606837607,
+    "obs_failed": 0.20512820512820512,
+    "obs_braked": 0.07692307692307693,
+    "obs_normal": 0.45726495726495725,
+    "trk_yielded": 0.43478260869565216,
+    "trk_failed": 0.5,
+    "trk_braked": 0.2608695652173913,
+    "onset_dist_med": 38.88,
+    "onset_dist_p90": 47.22,
+    "lat_speed_med": 0.61,
+    "lat_speed_p90": 0.92,
+    "accel_p05": -2.698
+   }
+  },
+  "no_ev_response": {
+   "term": "ev+corr",
+   "why": "every emergency-vehicle force at once. Note this does NOT recover the normal model: perceiving a siren also engages aware_amax_boost and urgency_pin_relief, so the extension has five channels and two of them retune host-traffic parameters (asserted in tests/test_terms.py)",
+   "overrides": {
+    "A_ev": 0.0,
+    "A_c": 0.0,
+    "gamma_c": 0.0
+   },
+   "loss": 1.5716,
+   "d_loss": 0.6296,
+   "parts": {
+    "fingerprint": 1.5716,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.859077829407767,
+    "min_ttc": 2.325341675433433,
+    "p95_decel": 0.24790107160670272,
+    "p95_alat": 0.16282572214322721,
+    "clearance_mean": 54.7173349916373,
+    "react_dist_mean": 93.7339074056307,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 260,
+    "n_obs": 326,
+    "n_tracks": 38,
+    "n_tracks_assessable": 34,
+    "veh_per_frame": 1.2538461538461538,
+    "obs_yielded": 0.03374233128834356,
+    "obs_failed": 0.5030674846625767,
+    "obs_braked": 0.0950920245398773,
+    "obs_normal": 0.36809815950920244,
+    "trk_yielded": 0.14705882352941177,
+    "trk_failed": 0.7647058823529411,
+    "trk_braked": 0.38235294117647056,
+    "onset_dist_med": 8.03,
+    "onset_dist_p90": 16.684,
+    "lat_speed_med": 0.63,
+    "lat_speed_p90": 1.04,
+    "accel_p05": -2.935
+   }
+  },
+  "no_ev_at_all": {
+   "term": "ev+corr",
+   "why": "all five channels: this one does reproduce the normal model bit for bit, which is the nesting invariant",
+   "overrides": {
+    "A_ev": 0.0,
+    "A_c": 0.0,
+    "gamma_c": 0.0,
+    "aware_amax_boost": 1.0,
+    "urgency_pin_relief": 0.0
+   },
+   "loss": 1.6253,
+   "d_loss": 0.6833,
+   "parts": {
+    "fingerprint": 1.6253,
+    "safety": 0.0,
+    "collisions": 0.0,
+    "comfort": 0.0
+   },
+   "measures": {
+    "ev_speed_ratio": 0.8579101439864468,
+    "min_ttc": 2.325187432715384,
+    "p95_decel": 0.24684023046019465,
+    "p95_alat": 0.16218622935561525,
+    "clearance_mean": 54.16914846626681,
+    "react_dist_mean": 93.83063773100692,
+    "disruption": 0.0,
+    "collisions": 0
+   },
+   "fingerprint": {
+    "n_frames": 260,
+    "n_obs": 335,
+    "n_tracks": 38,
+    "n_tracks_assessable": 34,
+    "veh_per_frame": 1.2884615384615385,
+    "obs_yielded": 0.041791044776119404,
+    "obs_failed": 0.5164179104477612,
+    "obs_braked": 0.07761194029850746,
+    "obs_normal": 0.3641791044776119,
+    "trk_yielded": 0.11764705882352941,
+    "trk_failed": 0.8235294117647058,
+    "trk_braked": 0.29411764705882354,
+    "onset_dist_med": 10.33,
+    "onset_dist_p90": 17.058000000000003,
+    "lat_speed_med": 0.525,
+    "lat_speed_p90": 0.9980000000000002,
+    "accel_p05": -2.94
+   }
+  }
+ },
+ "gt": {
+  "acceptance_bar": 0.7252,
+  "per_video": {
+   "20240720_einsatz_1080p": {
+    "n_frames": 930,
+    "n_obs": 2528,
+    "distance_to_pooled": 1.3732
+   },
+   "video1": {
+    "n_frames": 7320,
+    "n_obs": 18323,
+    "distance_to_pooled": 0.5605
+   },
+   "video2": {
+    "n_frames": 5397,
+    "n_obs": 26470,
+    "distance_to_pooled": 0.7037
+   },
+   "video3": {
+    "n_frames": 13637,
+    "n_obs": 72536,
+    "distance_to_pooled": 0.4698
+   },
+   "video4": {
+    "n_frames": 5713,
+    "n_obs": 25039,
+    "distance_to_pooled": 0.5187
+   }
+  },
+  "videos": [
+   "20240720_einsatz_1080p",
+   "video1",
+   "video2",
+   "video3",
+   "video4"
+  ],
+  "n_frames": 32997
+ }
+}
